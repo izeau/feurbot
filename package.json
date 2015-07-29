@@ -1,0 +1,13 @@
+{
+  "name": "feurbot",
+  "version": "1.0.0",
+  "description": "A silly Slack bot to annoy coworkers.",
+  "repository": "izeau/feurbot",
+  "bugs": "https://github.com/izeau/feurbot/issues",
+  "bin": "./feurbot.js",
+  "dependencies": {
+    "slack-client": "^1.4.1"
+  },
+  "author": "Jean Dupouy <jean.dupouy@rednet.io>",
+  "license": "MIT"
+}
