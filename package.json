@@ -1,6 +1,6 @@
 {
   "name": "feurbot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A silly Slack bot to annoy coworkers.",
   "repository": "izeau/feurbot",
   "bugs": "https://github.com/izeau/feurbot/issues",
