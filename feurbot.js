@@ -2,8 +2,9 @@
 
 'use strict';
 
-var Slack = require('slack-client');
-var token = process.argv[2];
+var Slack   = require('slack-client');
+var token   = process.argv[2];
+var trigger = /(q+u+o+i+|k+o+i+|k+o+a+|c+o+m+e+n+t+)\s*[?!]*$/;
 
 if (!token) {
   console.error([
@@ -21,7 +22,7 @@ slack.on('message', function (message) {
     return;
   }
 
-  if (!/quoi\s*[?!]*$/.test(message.text) && Math.random() < 0.99) {
+  if (!trigger.test(message.text) && Math.random() < 0.99) {
     return;
   }
 
