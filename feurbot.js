@@ -4,7 +4,7 @@
 
 var Slack   = require('slack-client');
 var token   = process.argv[2];
-var trigger = /(q+u+o+i+|k+o+i+|k+o+a+|c+o+m+e+n+t+)\s*[?!]*$/;
+var trigger = /(q+u+o+i+|k+o+i+|k+o+a+|c+o+m+e+n+t+)\s*[?!]*$/i;
 
 if (!token) {
   console.error([
