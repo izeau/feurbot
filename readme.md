@@ -1,6 +1,6 @@
 # feurbot
 
-[![npm version](https://img.shields.io/npm/v/feurbot.svg)](https://www.npmjs.org/packages/feurbot)
+[![npm version](https://img.shields.io/npm/v/feurbot.svg)](https://www.npmjs.org/packages/feurbot) [![Dependency Status](https://img.shields.io/david/izeau/feurbot.svg)](https://david-dm.org/izeau/feurbot)
 
 A silly Slack bot to annoy coworkers.
 
